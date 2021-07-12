@@ -18,7 +18,7 @@ int main()
             printf(">>> ");
             char* restr = malloc(sizeof restr);
             scanf("%s", restr);
-            if (restr)
+            
             executefs(ssearch_t, restr);
         }
     }
